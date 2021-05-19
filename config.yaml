@@ -1,0 +1,13 @@
+# Global configuration file for the simulation process
+
+SIMULATION:
+  n: 8
+  p: 0.6
+  m: 1
+  G: erdos_renyi
+  competitive_probability: 0.5
+  pajek_path: ./files/test.net
+  pay_off: [[[-1, -1], [0, 10]], [[10, 0], [5, 5]]]
+  K: 0.13
+  ROUNDS: 100
+  change_update_rule: True
